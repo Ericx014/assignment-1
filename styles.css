@@ -91,3 +91,21 @@ footer a {
   color: #fff;
   text-decoration: none;
 }
+
+/* Update ul style */
+.food-heading {
+  padding: 12px;
+}
+
+h3 {
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 12px;
+}
+
+li {
+  padding-bottom: 12px;
+}
