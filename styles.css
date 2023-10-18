@@ -19,7 +19,7 @@ header {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
 
-header .logo > img {
+header .logo > a > img {
   width: 20%;
 }
 
@@ -60,12 +60,10 @@ hgroup > button > a {
 
 .info-container {
   padding: 24px;
-  text-align: center;
-  margin-bottom: 24px;
-}
-
-.info-container.title {
-  margin-bottom: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .list-wrapper {
@@ -73,6 +71,7 @@ hgroup > button > a {
   justify-content: center;
   align-items: center;
   gap: 12px;
+  flex-wrap: wrap;
 }
 
 .card {
