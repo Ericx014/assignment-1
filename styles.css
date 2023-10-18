@@ -42,13 +42,28 @@ hgroup {
   gap: 16px;
 }
 
+hgroup > h1 {
+  font-size: 36px;
+}
+
+hgroup > p {
+  font-size: 24px;
+}
+
 hgroup > button {
+  font-size: 18px;
   padding: 1rem 1.3rem;
   border: none;
   box-shadow: 2px 2px 2px 2px #0003;
   border-radius: 3rem;
   color: white;
   background-color: black;
+  transition: ease-out 0.2s;
+}
+
+hgroup > button:hover {
+  background-color: white;
+  color: black;
 }
 
 hgroup > button > a {
@@ -75,11 +90,18 @@ hgroup > button > a {
 .card {
   list-style-type: none;
   width: 160px;
+  height: 200px;
   text-align: center;
   padding: 20px 25px;
   box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
   border: 1px solid #cce7d0;
   border-radius: 4px;
+}
+
+.card > img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 footer {
