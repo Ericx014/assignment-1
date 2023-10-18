@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Delicious Delights - Home</title>
+    <title>Homely</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
     <header>
-      <h1>Homely</h1>
+      <section class="logo">
+        <img src="/images/logo.png" alt="Logo of Homely" />
+      </section>
       <nav>
         <a href="index.html">Home</a>
         <a href="food.html">Food</a>
@@ -24,21 +32,25 @@
         <a href="menu.html">Let me see the menu</a>
       </button>
     </hgroup>
-    <section>
-      <h3>Our Services</h3>
-      <ul>
-        <li>Wedding Services</li>
-        <li>Buffet Services</li>
-        <li>Event Catering</li>
+    <section class="info-container">
+      <section class="info-container title">
+        <h3>Our Services</h3>
+      </section>
+      <ul class="list-wrapper">
+        <li class="card">Wedding Services</li>
+        <li class="card">Buffet Services</li>
+        <li class="card">Event Catering</li>
       </ul>
     </section>
-    <section>
-      <h3>Featured Products</h3>
-      <p>All Time Customer Favorites</p>
-      <ul>
-        <li>Spaghetti Carbonara</li>
-        <li>Chicken Tikka Masala</li>
-        <li>Chocolate Lava Cake</li>
+    <section class="info-container">
+      <section class="info-container title">
+        <h3>Featured Products</h3>
+        <p>All Time Customer Favorites</p>
+      </section>
+      <ul class="list-wrapper">
+        <li class="card">Spaghetti Carbonara</li>
+        <li class="card">Chicken Tikka Masala</li>
+        <li class="card">Chocolate Lava Cake</li>
       </ul>
     </section>
     <footer>
