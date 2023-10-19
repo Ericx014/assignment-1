@@ -9,6 +9,7 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  padding: 2px 12px;
   position: sticky;
   top: 0;
   z-index: 100;
@@ -22,7 +23,7 @@ header .logo > a > img {
 
 nav {
   display: flex;
-  gap: 25px;
+  gap: 8px;
 }
 
 nav > a {
@@ -127,8 +128,7 @@ footer a {
 }
 
 .food-heading,
-.drinks-heading,
-.menu-heading {
+.drinks-heading {
   background-color: rgba(188, 188, 188, 0.197);
   padding: 20px;
   text-align: center;
@@ -144,7 +144,7 @@ footer a {
 .drinks-menu {
   max-width: 800px;
   margin: 0 auto;
-  background-color: rgba(179, 178, 238, 0.579);
+  background-color: rgba(178, 206, 238, 0.579);
   border-radius: 10%;
 }
 
@@ -226,8 +226,8 @@ h2.category-label{
   width: 25%;
 }
 
-.food-container 
-.drinks-container{
+.food-container,
+.drinks-container {
   margin-bottom: 50px;
 }
   
@@ -275,6 +275,6 @@ p {
   font-size: 16px;
 }
 
-.customer-review bolding {
+.customer-review bolding{
   font-weight: bold;
 }
