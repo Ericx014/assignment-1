@@ -332,12 +332,15 @@ h2.category-label {
 
 .reservation-wrapper {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 40px;
   gap: 16px;
   background-color: #fafafa;
+}
+
+.reservation-text, .reservation-form {
+  width: 50%; 
 }
 
 .reservation-text {
