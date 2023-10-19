@@ -334,7 +334,7 @@ h2.category-label {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 60px;
   gap: 16px;
   background-color: #fafafa;
 }
