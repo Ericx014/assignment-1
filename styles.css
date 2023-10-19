@@ -198,3 +198,17 @@ footer a {
     flex-direction: column;
   }
 }
+
+.about-us > p {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.about-us h1 {
+  text-align: center
+}
