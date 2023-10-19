@@ -145,3 +145,17 @@ ul {
 li {
   padding-bottom: 12px;
 }
+
+.about-us > p {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.about-us h1 {
+  text-align: center
+}
