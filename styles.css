@@ -130,18 +130,46 @@ footer a {
 .food-heading {
   background-color: rgba(188, 188, 188, 0.197);
   padding: 20px;
+  text-align: center;
 }
 
-.food-menu > ul > h3 {
-  padding-bottom: 10px;
+.list-header {
+  padding: 24px 10px;
+  text-align: center;
   text-decoration: underline;
 }
 
-ul {
+.food-menu > ul {
   list-style-type: none;
   padding: 12px;
 }
 
-li {
-  padding-bottom: 12px;
+.food-menu .item-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 2rem;
+}
+
+.item-container > img {
+  max-width: 160px;
+}
+
+.food-menu .item-text {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  letter-spacing: 1.2px;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.item-description {
+  font-size: 12px;
+  font-style: italic;
 }
