@@ -247,3 +247,28 @@ p {
 .about-us h1 {
   text-align: center;
 }
+
+.customer-reviews {
+  background-color: #f2f2f2;
+  padding: 20px;
+  display: flex; 
+  position: center;
+  justify-content: space-around;
+}
+
+.customer-review{
+  position: center;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin: 10px;
+  width: 45%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.customer-review p {
+  font-size: 16px;
+}
+
+.customer-review bolding {
+  font-weight: bold;
+}
