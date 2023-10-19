@@ -130,20 +130,65 @@ footer a {
 .food-heading {
   background-color: rgba(188, 188, 188, 0.197);
   padding: 20px;
+  text-align: center;
 }
 
-.food-menu > ul > h3 {
-  padding-bottom: 10px;
+.list-header {
+  padding: 24px 10px;
+  text-align: center;
   text-decoration: underline;
 }
 
-ul {
+.food-menu {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(238, 178, 178, 0.579);
+  border-radius: 10%;
+}
+
+.food-menu > ul {
   list-style-type: none;
   padding: 12px;
 }
 
-li {
-  padding-bottom: 12px;
+.food-menu .item-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin: 2rem;
+}
+
+.item-container > img {
+  max-width: 160px;
+  border-radius: 8px;
+}
+
+.food-menu .item-text {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 8px;
+  letter-spacing: 1.2px;
+}
+
+.item-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.item-description {
+  font-size: 12px;
+  font-style: italic;
+  min-height: 60px; 
+}
+
+.separator {
+  width: 80%;
+  background-color: #000000;
+  height: 2px;
+  margin: 8px 20px 0;
 }
 
 /* Menu */
@@ -178,4 +223,27 @@ h2.category-label{
 
 .food-container {
   margin-bottom: 50px;
+}
+  
+@media (max-width: 600px) {
+  .separator {
+    width: 100%;
+  }
+  .food-menu .item-container {
+    flex-direction: column;
+  }
+}
+
+.about-us > p {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.about-us h1 {
+  text-align: center;
 }
