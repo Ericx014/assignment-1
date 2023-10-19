@@ -127,7 +127,9 @@ footer a {
   text-decoration: none;
 }
 
-.food-heading {
+.food-heading,
+.drinks-heading,
+.menu-heading {
   background-color: rgba(188, 188, 188, 0.197);
   padding: 20px;
   text-align: center;
