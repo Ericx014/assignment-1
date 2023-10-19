@@ -180,7 +180,7 @@ footer a {
 
 .food-menu,
 .drinks-menu,
-.drinks-menu {
+.dessert-menu {
   max-width: 800px;
   margin: 0 auto;
   background-color: rgba(178, 206, 238, 0.579);
@@ -188,13 +188,15 @@ footer a {
 }
 
 .food-menu > ul,
-.drinks-menu > ul {
+.drinks-menu > ul,
+.dessert-menu > ul {
   list-style-type: none;
   padding: 12px;
 }
 
 .food-menu .item-container,
-.drinks-menu .item-container {
+.drinks-menu .item-container,
+.dessert-menu .item-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -208,7 +210,8 @@ footer a {
 }
 
 .food-menu .item-text,
-.drinks-menu .item-text {
+.drinks-menu .item-text, 
+.dessertmenu .item-text {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -237,7 +240,8 @@ footer a {
 
 /* Menu */
 .food-container,
-.drinks-container {
+.drinks-container,
+.dessert-container {
   background-color: rgba(178, 206, 238, 0.579);
   width: 80%;
   margin-left: auto;
@@ -246,7 +250,15 @@ footer a {
   padding: 40px;
 }
 
-h2.category-label {
+a.category-label{
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.category-container {
   text-align: center;
   padding: 24px 10px;
 }
@@ -256,10 +268,12 @@ h2.category-label {
   margin: 5px 0;
   font-size: 18px;
   letter-spacing: 1.2px;
+  padding-bottom: 10px;
 }
 
 .food,
-.drinks {
+.drinks,
+.dessert {
   text-align: left;
   width: 74%;
 }
@@ -270,13 +284,14 @@ h2.category-label {
 }
 
 .food-container,
-.drinks-container {
+.drinks-container,
+.dessert-container {
   margin-bottom: 10px;
-  border-radius: 10%;
+  border-radius: 30px;
 }
 
-.drinks-container {
-  margin-bottom: 40px;
+.dessert-container {
+  margin-bottom: 30px;
 }
 
 @media (max-width: 600px) {
@@ -287,6 +302,7 @@ h2.category-label {
     flex-direction: column;
   }
 }
+
 /*about us*/
 .about-us > article {
   text-align: center;
