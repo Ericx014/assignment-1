@@ -32,14 +32,16 @@ nav > a {
 }
 
 hgroup {
-  background-color: rgba(188, 188, 188, 0.197);
-  height: 100vh;
+  padding: 0 60px;
+  height: 90vh;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   gap: 16px;
+  background-image: url(images/background.png);
+  background-size: cover;
+  color: white;
 }
 
 hgroup > h1 {
@@ -77,6 +79,11 @@ hgroup > button > a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+}
+
+.info-container > h3 {
+  font-size: 34px;
+  line-height: 64px;
 }
 
 .list-wrapper {
@@ -120,13 +127,12 @@ footer a {
   text-decoration: none;
 }
 
-/* Update ul style */
 .food-heading {
   background-color: rgba(188, 188, 188, 0.197);
   padding: 20px;
 }
 
-h3 {
+.food-menu > ul > h3 {
   padding-bottom: 10px;
   text-decoration: underline;
 }
