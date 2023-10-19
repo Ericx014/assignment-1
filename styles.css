@@ -39,7 +39,7 @@ hgroup {
   justify-content: center;
   align-items: flex-start;
   gap: 16px;
-  background-image: url(images/background.png);
+  background-image: url(images/background.jpg);
   background-size: cover;
   color: white;
 }
