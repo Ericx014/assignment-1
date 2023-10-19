@@ -161,6 +161,7 @@ footer a {
 
 .item-container > img {
   max-width: 160px;
+  border-radius: 8px;
 }
 
 .food-menu .item-text {
