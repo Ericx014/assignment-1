@@ -287,7 +287,7 @@ h2.category-label {
     flex-direction: column;
   }
 }
-
+/*about us*/
 .about-us > p {
   text-align: center;
   margin: auto;
@@ -299,6 +299,11 @@ h2.category-label {
 .about-us h1 {
   text-align: center;
   font-size: 50px;
+}
+
+.about-us h2 {
+  text-align: center;
+  font-size: 35px;
 }
 
 .customer-reviews {
@@ -313,6 +318,7 @@ h2.category-label {
   position: center;
   background-color: white;
   padding: 20px;
+  border-radius: 10px;
   border: 1px solid #ddd;
   margin: 10px;
   width: 45%;
@@ -322,8 +328,8 @@ h2.category-label {
   font-size: 16px;
 }
 
-.customer-review bolding {
-  margin-bottom: 20px;
+.customer-name  {
+  margin-bottom: 10px;
   font-weight: bold;
 }
 
