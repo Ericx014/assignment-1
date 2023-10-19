@@ -400,7 +400,8 @@ h2.category-label {
   font-weight: 700;
 }
 
-.reservation-form > input {
+.reservation-form > input,
+select {
   border: 1px solid #f2ede1;
   border-radius: 4px;
   padding: 7px;
@@ -410,11 +411,28 @@ h2.category-label {
 .reservation-form > button {
   border: 0;
   background-color: rgb(53, 172, 55);
-  color: white;
   padding: 10px 50px;
   margin-top: 40px;
   border-radius: 5px;
   font-size: 18px;
   font-weight: 700;
   cursor: pointer;
+}
+
+.reservation-form > button > a {
+  color: white;
+  text-decoration: none;
+}
+
+.success-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+  height: 75vh;
+}
+
+.success-message h1 {
+  color: green;
 }
