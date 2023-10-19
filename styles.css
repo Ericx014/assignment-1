@@ -288,7 +288,7 @@ h2.category-label {
   }
 }
 /*about us*/
-.about-us > p {
+.about-us > article {
   text-align: center;
   margin: auto;
   width: 50%;
