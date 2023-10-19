@@ -83,11 +83,18 @@ hgroup > button > a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-bottom: 18px;
 }
 
 .info-container > h3 {
   font-size: 34px;
   line-height: 64px;
+}
+
+.info-container > p {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 18px;
 }
 
 .list-wrapper {
@@ -114,6 +121,29 @@ hgroup > button > a {
   width: 100%;
   height: auto;
   object-fit: cover;
+}
+
+.operations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(224, 224, 224);
+  padding: 24px;
+}
+
+.operations h3 {
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+.hours {
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 1.5rem;
+  color: black;
 }
 
 footer {
@@ -206,7 +236,7 @@ footer a {
 }
 
 /* Menu */
-.menu-container{
+.menu-container {
   background-color: lightgray;
   width: 80%;
   margin-left: auto;
@@ -216,7 +246,7 @@ footer a {
 }
 
 h2.category-label {
-  text-align: center; 
+  text-align: center;
   padding: 24px 10px;
 }
 
@@ -339,8 +369,9 @@ h2.category-label {
   background-color: #fafafa;
 }
 
-.reservation-text, .reservation-form {
-  width: 50%; 
+.reservation-text,
+.reservation-form {
+  width: 50%;
 }
 
 .reservation-text {
