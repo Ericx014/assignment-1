@@ -181,7 +181,7 @@ footer a {
 .item-description {
   font-size: 12px;
   font-style: italic;
-  min-height: 60px; 
+  min-height: 60px;
 }
 
 .separator {
@@ -192,7 +192,7 @@ footer a {
 }
 
 /* Menu */
-.menu-container{
+.menu-container {
   background-color: lightgray;
   width: 80%;
   margin-left: auto;
@@ -201,7 +201,7 @@ footer a {
   padding: 20px;
 }
 
-h2.category-label{
+h2.category-label {
   text-align: center;
 }
 
@@ -211,9 +211,10 @@ h2.category-label{
   font-size: 18px;
 }
 
-.food, .drinks {
+.food,
+.drinks {
   text-align: left;
-  width: 74%
+  width: 74%;
 }
 
 .price {
@@ -224,7 +225,7 @@ h2.category-label{
 .food-container {
   margin-bottom: 50px;
 }
-  
+
 @media (max-width: 600px) {
   .separator {
     width: 100%;
@@ -235,9 +236,9 @@ h2.category-label{
 }
 
 .about-us > p {
-    text-align: center;
-    margin: auto;
-    width: 50%;
+  text-align: center;
+  margin: auto;
+  width: 50%;
 }
 
 p {
@@ -251,12 +252,12 @@ p {
 .customer-reviews {
   background-color: #f2f2f2;
   padding: 20px;
-  display: flex; 
+  display: flex;
   position: center;
   justify-content: space-around;
 }
 
-.customer-review{
+.customer-review {
   position: center;
   background-color: white;
   padding: 10px;
@@ -271,4 +272,30 @@ p {
 
 .customer-review bolding {
   font-weight: bold;
+}
+
+.reserve {
+  padding: 60px;
+  background-color: rgba(32, 23, 204, 0.4);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  background-color: rgb(112, 101, 213);
+  color: white;
+}
+
+.reserve > button {
+  font-size: 18px;
+  font-weight: 700;
+  padding: 0.7rem 1.3rem;
+  border: none;
+  box-shadow: 2px 2px 2px 2px #0003;
+  border-radius: 3rem;
+  background-color: rgba(247, 33, 33, 0.982);
+}
+
+.reserve > button > a {
+  text-decoration: none;
+  color: white;
 }
