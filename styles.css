@@ -236,7 +236,8 @@ footer a {
 }
 
 /* Menu */
-.menu-container {
+.food-container,
+.drinks-container {
   background-color: lightgray;
   width: 80%;
   margin-left: auto;
