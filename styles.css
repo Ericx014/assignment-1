@@ -551,3 +551,92 @@ select {
 .buy > img {
   width: 12%;
 }
+
+.cart {
+  overflow-x: auto;
+  padding: 10px 20px 0 10px;
+}
+
+.cart table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  white-space: nowrap;
+  background-color: rgba(255, 255, 255, 0.723);
+}
+
+.cart table img {
+  width: 160px;
+}
+
+.cart table td:nth-child(1) {
+  width: 160px;
+  text-align: center;
+}
+
+.cart table td:nth-child(2) {
+  width: 280px;
+  text-align: center;
+}
+
+.cart table td:nth-child(3),
+.cart table td:nth-child(4),
+.cart table td:nth-child(5) {
+  width: 150px;
+  text-align: center;
+}
+
+.cart table td:nth-child(4) input {
+  width: 40px;
+  padding: 8px 12px;
+}
+
+.cart table thead {
+  border: 1px solid #cbcbcb;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.cart table thead td {
+  font-size: 24px;
+  padding: 18px 0;
+}
+
+.cart table tbody tr td {
+  padding-top: 15px;
+}
+
+.cart table tbody td {
+  font-size: 18px;
+}
+
+.subtotal {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  overflow-x: auto;
+  padding: 10px 20px 20px 10px;
+}
+
+.subtotal table {
+  border-top: 2px solid #cbcbcb;
+  width: 100%;
+  max-width: 395px;
+}
+
+.subtotal table td:nth-child(1),
+.subtotal table td:nth-child(2) {
+  font-size: 18px;
+}
+
+.subtotal > button {
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: rgb(12, 155, 24);;
+  padding: 8px 12px;
+  margin-top: 12px;
+}
