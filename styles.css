@@ -467,16 +467,34 @@ select {
 /***********************************INDIVIDUAL FOOD***********************************/
 .food-item {
   display: flex;
-  border: 1px solid #ddd;
-  padding: 10px;
-  margin: 10px;
-  max-width: 600px;
-  margin: 0 auto;
+  width: 1000px;
+  margin: 20px auto;
 }
 
-.food-item > img {
-  max-width: 200px;
-  margin-right: 20px;
+.col1 {
+  width: 40%;
+  padding-left: 20px;
+}
+
+.col1 > img {
+  max-width: 90%;
+}
+.col2 {
+  width: 60%; 
+  padding: 10px; 
+}
+
+.order-button{
+  background-color: grey; 
+  color: #fff;
+  padding: 10px 20px; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.order-button:hover {
+  background-color: black; 
 }
 
 .food-details {
@@ -493,6 +511,32 @@ select {
   text-align: center;
 }
 
+@media (max-width: 800px) {
+  .food-item {
+    display: block;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .col1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .col1 > img {
+    max-width: 80%;
+  }
+
+  .col2{
+    width: 100%;
+  }
+  .col2 > h2, .col2 > p {
+    text-align: justify;
+  }
+}
+/***************PRODUCTS*******************/
 .products > h3 {
   font-size: 34px;
   line-height: 64px;
