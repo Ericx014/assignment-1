@@ -210,7 +210,7 @@ footer a {
 }
 
 .food-menu .item-text,
-.drinks-menu .item-text, 
+.drinks-menu .item-text,
 .dessertmenu .item-text {
   display: flex;
   flex-direction: column;
@@ -250,7 +250,7 @@ footer a {
   padding: 40px;
 }
 
-a.category-label{
+a.category-label {
   color: black;
   text-align: center;
   text-decoration: none;
@@ -344,7 +344,7 @@ a.category-label{
   font-size: 16px;
 }
 
-.customer-name  {
+.customer-name {
   margin-bottom: 10px;
   font-weight: bold;
 }
@@ -466,12 +466,12 @@ select {
 
 /***********************************INDIVIDUAL FOOD***********************************/
 .food-item {
-    display: flex;
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin: 10px;
-    max-width: 600px;
-    margin: 0 auto;
+  display: flex;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .food-item > img {
@@ -480,13 +480,74 @@ select {
 }
 
 .food-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-.food-item > h2, .food-item > p, .order-button {
+.food-item > h2,
+.food-item > p,
+.order-button {
   margin: 5px 0;
   text-align: center;
+}
+
+.products > h3 {
+  font-size: 34px;
+  line-height: 64px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 16px;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.product {
+  width: 20%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid rgba(216, 216, 216, 0.579);
+  background-color: rgba(220, 220, 220, 0.296);
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 20px 40px;
+}
+
+.product:hover {
+  box-shadow: 10px 10px 24px rgba(0, 0, 0, 0.3);
+  transition: 0.2s ease;
+}
+
+.product > img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.product-desc {
+  padding: 10px 0;
+}
+
+.product-desc h4 {
+  font-size: 18px;
+}
+
+.product-desc h5 {
+  padding-top: 8px;
+  font-size: 15px;
+  color: rgb(12, 155, 24);
+}
+
+.buy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy > img {
+  width: 12%;
 }
