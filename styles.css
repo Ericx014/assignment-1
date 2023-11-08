@@ -474,7 +474,7 @@ select {
     margin: 0 auto;
 }
 
-img {
+.food-item > img {
   max-width: 200px;
   margin-right: 20px;
 }
@@ -486,7 +486,7 @@ img {
     align-items: flex-start;
 }
 
-h2, p, .order-button {
+.food-item > h2, .food-item > p, .order-button {
   margin: 5px 0;
   text-align: center;
 }
