@@ -463,3 +463,30 @@ select {
 .success-message h1 {
   color: green;
 }
+
+/***********************************INDIVIDUAL FOOD***********************************/
+.food-item {
+    display: flex;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+img {
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+.food-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+h2, p, .order-button {
+  margin: 5px 0;
+  text-align: center;
+}
