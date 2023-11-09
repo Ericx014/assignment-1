@@ -622,13 +622,18 @@ select {
   color: rgb(12, 155, 24);
 }
 
+.cart-link {
+  width: 20px;
+}
+
+.cart-link img {
+  width: 25px;
+  height: auto;
+}
+
 .buy {
   display: flex;
   justify-content: space-between;
-}
-
-.buy > img {
-  width: 12%;
 }
 
 /* VIEW CATALOGUE */
