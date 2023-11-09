@@ -221,6 +221,22 @@ footer a {
   border-radius: 8px;
 }
 
+.more-details {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-weight: bold;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.more-details:hover {
+  background-color: #f5f5f5;
+}
+
 .food-menu .item-text,
 .drinks-menu .item-text,
 .dessertmenu .item-text {
