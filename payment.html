@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Set character encoder and viewpoint-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cart</title>
+    <!-- Browser Tab Icon -->
     <link rel="icon" href="./images/homelyicon.jpg" type="image/x-icon" />
+    <!-- Title of the page indicating payment is a success -->
+    <title>Payment Successful</title>
+    <!-- Links HTML to external CSS for styling -->
     <link rel="stylesheet" href="styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
@@ -12,14 +16,13 @@
     />
   </head>
   <body>
+    <!-- Header with logo and navbar -->
     <header>
-      <!-- logo linking to index.html/homepage -->
       <section class="logo">
         <a href="index.html">
           <img src="./images/logo.jpg" alt="Logo of Homely" />
         </a>
       </section>
-      <!-- Navigation Menu -->
       <nav>
         <a href="index.html">Home</a>
         <a href="food.html">Food</a>
@@ -29,68 +32,18 @@
         <a href="about.html">About</a>
         <a href="contact.html">Contact</a>
         <a href="cart.html" class="cart-link">
-          <img src="./images/Black_cart.png" alt="Cart">
+            <img src="./images/Black_cart.png" alt="Cart">
         </a>
       </nav>
     </header>
-    <!--Cart Listing-->
-    <section class="cart">
-      <table width="100%">
-        <thead>
-          <tr>
-            <td>Image</td>
-            <td>Product</td>
-            <td>Price</td>
-            <td>Quantity</td>
-            <td>Subtotal</td>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><img src="./images/chickenburg.jpg" alt="product-image" /></td>
-            <td>Chicken Burger</td>
-            <td>RM10.50</td>
-            <td><input type="number" value="1" /></td>
-            <td>RM10.50</td>
-          </tr>
-          <tr>
-            <td><img src="./images/bbqsauce.jpg" alt="product-image" /></td>
-            <td>Spicy BBQ Sauce</td>
-            <td>RM3.00</td>
-            <td><input type="number" value="1" /></td>
-            <td>RM3.00</td>
-          </tr>
-          <tr>
-            <td><img src="./images/icecream.jpg" alt="product-image" /></td>
-            <td>Ice Cream Cup</td>
-            <td>RM4.50</td>
-            <td><input type="number" value="1" /></td>
-            <td>RM4.50</td>
-          </tr>
-        </tbody>
-      </table>
+    <!-- Displays success message upon successful payment -->
+    <section class="success-message">
+      <h1>Payment Success!</h1>
+      <p>
+        Thank you for your purchases. We look forward to serving you soon.
+      </p>
     </section>
-    <section class="subtotal">
-      <table>
-        <tr>
-          <td>Cart Subtotal</td>
-          <td>RM18.00</td>
-        </tr>
-        <tr>
-          <td>Shipping</td>
-          <td>Free</td>
-        </tr>
-        <tr>
-          <td>Total</td>
-          <td>RM48.00</td>
-        </tr>
-      </table>
-      <br/>
-      <a href="payment.html" class="payment">
-        <button class="payment">Proceed To Checkout</button>
-      </a>
-    </section>
-     <!-- Footer with social media linkages, contacts, and copyrights -->
+    <!-- Footer containing social media linkages, contacts, and copyrights -->
     <footer>
       <section class="socials">
         <h2>Follow us on social media</h2>
