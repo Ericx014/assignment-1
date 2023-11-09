@@ -648,6 +648,10 @@ select {
   justify-content: space-between;
 }
 
+.catalogue-container {
+  margin-bottom: 40px;
+}
+
 /* VIEW CATALOGUE */
 div.view-catalogue-container {
   display: flex;
