@@ -8,6 +8,11 @@ body {
   background-color: #fefefe;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 header {
   font-size: 18px;
   display: flex;
@@ -597,7 +602,7 @@ select {
   transition: 0.2s ease;
 }
 
-.product > img {
+.product > a > img {
   width: 100%;
   border-radius: 20px;
 }
