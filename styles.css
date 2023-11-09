@@ -28,6 +28,13 @@ header .logo > a > img {
 nav {
   display: flex;
   gap: 25px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  nav {
+    width: 100%;
+  }
 }
 
 nav > a {
@@ -650,13 +657,13 @@ a.view-catalogue {
   padding: 10px;
   text-align: center;
   border-radius: 5px;
-  transition: transform .3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
   margin: 10px 0;
 }
 
 a.view-catalogue:hover {
-  transform: scale(1.2)
-} 
+  transform: scale(1.2);
+}
 
 .cart {
   overflow-x: auto;
