@@ -631,6 +631,28 @@ select {
   width: 12%;
 }
 
+/* VIEW CATALOGUE */
+div.view-catalogue-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+a.view-catalogue {
+  text-decoration: none;
+  background-color: rgb(12, 155, 24);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  transition: transform .3s ease-in-out;
+  margin: 10px 0;
+}
+
+a.view-catalogue:hover {
+  transform: scale(1.2)
+} 
+
 .cart {
   overflow-x: auto;
   padding: 10px 20px 0 10px;
